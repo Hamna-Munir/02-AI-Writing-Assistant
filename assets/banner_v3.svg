@@ -1,0 +1,59 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#131a2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- Signature: rough line settling into a smooth line — "refinement" -->
+  <g transform="translate(680, 90)">
+    <path d="M0,60 L20,20 L40,90 L60,10 L80,80 L100,30 L120,70 L140,15 L160,95 L180,40 L200,60"
+          fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M220,50 C260,45 300,55 340,50 C380,45 420,55 460,50"
+          fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M200,60 C210,58 212,52 220,50" fill="none" stroke="#94a3b8" stroke-width="1.5" opacity="0.6" stroke-dasharray="2 4"/>
+    <circle cx="460" cy="50" r="4" fill="#38bdf8"/>
+  </g>
+  <text x="680" y="215" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#64748b">RAW INPUT</text>
+  <text x="1050" y="215" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#38bdf8" text-anchor="end">REFINED OUTPUT</text>
+
+  <!-- eyebrow -->
+  <text x="70" y="70" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#f59e0b">WEEK 02 · PROMPT ENGINEERING</text>
+
+  <!-- title -->
+  <text x="68" y="128" font-family="Arial, sans-serif" font-size="46" font-weight="800" fill="#f8fafc">AI Writing Assistant</text>
+
+  <rect x="70" y="150" width="180" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- subtitle -->
+  <text x="70" y="188" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8">Reliable, instruction-following AI — from vague prompts to consistent output.</text>
+
+  <!-- feature row -->
+  <g font-family="Arial, sans-serif" font-size="13.5" fill="#cbd5e1">
+    <text x="70" y="230">Generate</text>
+    <circle cx="150" cy="226" r="2" fill="#475569"/>
+    <text x="165" y="230">Rewrite</text>
+    <circle cx="238" cy="226" r="2" fill="#475569"/>
+    <text x="253" y="230">Grammar Fix</text>
+    <circle cx="357" cy="226" r="2" fill="#475569"/>
+    <text x="372" y="230">Summarize</text>
+    <circle cx="470" cy="226" r="2" fill="#475569"/>
+    <text x="485" y="230">Translate</text>
+    <circle cx="573" cy="226" r="2" fill="#475569"/>
+    <text x="588" y="230">Tone Control</text>
+  </g>
+
+  <rect x="0" y="298" width="1200" height="2" fill="url(#accent)" opacity="0.5"/>
+</svg>
