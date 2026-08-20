@@ -115,11 +115,11 @@ Take one tone (e.g., "Friendly") and write 3 few-shot examples for it. Then test
 
 ## ✅ Checklist
 
-- [ ] Understood zero-shot vs one-shot vs few-shot
-- [ ] Understood why examples can succeed where instructions alone don't
-- [ ] Built a few-shot prompt for at least one tone
-- [ ] Compared zero-shot vs few-shot output for the same request
-- [ ] Bonus: tested 3 few-shot examples for the "Friendly" tone
+- [x] Understood zero-shot vs one-shot vs few-shot
+- [x] Understood why examples can succeed where instructions alone don't
+- [x] Built a few-shot prompt for at least one tone
+- [x] Compared zero-shot vs few-shot output for the same request
+- [x] Bonus: tested 3 few-shot examples for the "Friendly" tone — output matched the example pattern naturally ("Hey there! Just a quick heads-up...")
 - [ ] Git commit made
 
 ---
