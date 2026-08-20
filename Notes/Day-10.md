@@ -111,11 +111,11 @@ Build one more template — a **Summarize** template that accepts `text` and a `
 
 ## ✅ Checklist
 
-- [ ] Understood what a prompt template is and why it's useful
-- [ ] Understood the difference between fixed and variable parts of a prompt
-- [ ] Built a reusable `build_rewrite_prompt()` template with a `tone` variable
-- [ ] Added tone selection (1–5) to the Rewrite feature
-- [ ] Bonus: built a Summarize template with a `length` variable
+- [x] Understood what a prompt template is and why it's useful
+- [x] Understood the difference between fixed and variable parts of a prompt
+- [x] Built a reusable `build_rewrite_prompt()` template with a `tone` variable
+- [x] Added tone selection (1–5) to the Rewrite feature (verified: Friendly tone tested, output matched)
+- [x] Bonus: built a Summarize template with a `length` variable (verified: 3 bullet points output, accurate)
 - [ ] Git commit made
 
 ---
