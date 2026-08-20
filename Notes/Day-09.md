@@ -104,11 +104,11 @@ Write a system prompt for a **"Strict Grammar Checker"** persona that only fixes
 
 ## ✅ Checklist
 
-- [ ] Understood the 3 questions a system instruction should answer
-- [ ] Understood instruction hierarchy (system > user > default)
-- [ ] Built reusable system prompts for Writing / Grammar / Summarization
-- [ ] Added mode selection (1–4) to the assistant
-- [ ] Bonus: tested a strict persona that refuses conflicting user requests
+- [x] Understood the 3 questions a system instruction should answer
+- [x] Understood instruction hierarchy (system > user > default)
+- [x] Built reusable system prompts for Writing / Grammar / Summarization
+- [x] Added mode selection (1–4) to the assistant
+- [x] Bonus: tested a strict persona — Grammar mode correctly fixed "He go to school everyday and dont like it." to "He goes to school every day and doesn't like it." without changing tone
 - [ ] Git commit made
 
 ---
