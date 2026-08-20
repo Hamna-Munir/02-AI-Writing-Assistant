@@ -104,12 +104,12 @@ Pick one task (for example, "write a product description") and create **3 differ
 
 ## ✅ Checklist
 
-- [ ] Understood the 4 parts of a prompt (instruction, context, input, output format)
-- [ ] Understood system vs user instructions
-- [ ] Rewrote 5 bad prompts into clear prompts
-- [ ] Tested before/after prompts and compared results
-- [ ] Basic text generation feature added to the assistant
-- [ ] Bonus: compared 3 prompt variants for one task
+- [x] Understood the 4 parts of a prompt (instruction, context, input, output format)
+- [x] Understood system vs user instructions
+- [x] Rewrote 5 bad prompts into clear prompts
+- [x] Tested before/after prompts and compared results
+- [x] Basic text generation feature added to the assistant (verified via `python -m src.main` → Write mode)
+- [x] Bonus: compared 3 prompt variants for one task
 - [ ] Git commit made
 
 ---
